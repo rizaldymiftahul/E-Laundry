@@ -1,5 +1,5 @@
 <?php
-/* ===== www.dedykuncoro.com ===== */
+
 	include '../koneksi/koneksi.php';
 	
 	class usr{}
@@ -25,7 +25,7 @@
 		die(json_encode($response));
 	} else {
 		if (!empty($email) && $password == $repassword){
-			$query = mysql_query("INSERT INTO users (id, email, password) VALUES("",'".$email."','".$password."')");
+			$query = mysql_query("INSERT INTO users VALUES('', '', '$repassword', '', '', '$email','$password')");
 			
 			if ($query){
 				$response = new usr();
