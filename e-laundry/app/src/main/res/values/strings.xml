@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">e-laundry</string>
+    <string name="title_activity_navigation">Navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--button-->
+    <string name="cuci_mamel">CUCI MAMEL</string>
+    <string name="cuci_kering">CUCI KERING</string>
+    <string name="cuci_setrika">CUCI SETRIKA</string>
+    <string name="list_pesanan">LIST PESANAN</string>
+    <string name="status">STATUS</string>
+    <string name="detail">DETAIL LAUNDRY</string>
+    <string name="title_activity_detail">detail</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_1">Tab 1</string>
+    <string name="tab_2">Tab 2</string>
+    <string name="tab_3">Tab 3</string>
+</resources>
